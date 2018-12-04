@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 const functions = require('firebase-functions');
 
-expressApp.post('/fulfillment', functions.https.onRequest((request, response) => {
+app.post('/fulfillment', functions.https.onRequest((request, response) => {
 	const agent = new WebhookClient({ request, response });
 	 function welcome(agent) {
 	  agent.add(`Welcome to my agent in Heroku!`);
