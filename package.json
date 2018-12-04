@@ -1,7 +1,7 @@
 {
   "name": "vc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "actions-on-google": "^2.5.0",
     "body-parser": "^1.18.3",
