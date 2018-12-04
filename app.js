@@ -26,7 +26,7 @@ function fallback(agent) {
 	agent.add(`I didn't understand`);
 	agent.add(`I'm sorry, can you try again?`);
   }
-}
+
 
 function fallback(agent) {
 	agent.add(`I didn't understand`);
@@ -39,8 +39,7 @@ function fallback(agent) {
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
   agent.handleRequest(intentMap);
- })
-);
+ 
  
 
 
