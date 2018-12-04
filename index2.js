@@ -4,7 +4,7 @@ var express = require("express");
 var app = express();
 
 app.get("/",function(req,res){
-    res.send('<h1>This is my web app1</h1>');
+    res.send('<h1>This is my web app</h1>');
 });
 
 //Start the express server to listen to a port in the server
